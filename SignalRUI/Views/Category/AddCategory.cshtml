@@ -1,0 +1,32 @@
+﻿@model CreateCategoryViewModel
+@{
+    ViewData["Title"] = "AddCategory";
+    Layout = "~/Views/AdminLayoutcontroller/Index.cshtml";
+}
+
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-header">
+				<div class="card-title">Kategori İşlemleri</div>
+			</div>
+			<form method="post">
+			<div class="card-body">
+			
+
+				
+				<div class="form-group">
+					<label for="text">Kategori Adı</label>
+					<input type="text" asp-for="CategoryName" class="form-control" id="text">
+				</div>
+			</div>
+			<div class="card-action">
+				<button class="btn btn-outline-primary">Categoriyi Ekle</button>
+			</div>
+			</form>
+		</div>
+	</div>
+	</div>
+	
+
